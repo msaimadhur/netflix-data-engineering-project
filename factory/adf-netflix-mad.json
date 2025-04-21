@@ -1,0 +1,9 @@
+{
+	"name": "adf-netflix-mad",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4e1d3ac0-1b33-4ec8-86f1-3872f6ec6fc9",
+		"tenantId": "9536a02c-2e46-470e-a26b-e50a107cd766"
+	}
+}
