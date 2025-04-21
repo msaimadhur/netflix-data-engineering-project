@@ -99,6 +99,8 @@
 			{
 				"name": "ValidationGithub",
 				"type": "Validation",
+				"state": "Active",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "Set variable1",
