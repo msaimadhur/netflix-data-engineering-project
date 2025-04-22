@@ -183,7 +183,7 @@
 						"typeProperties": {
 							"variableName": "githubmetadata",
 							"value": {
-								"value": "@activity('GithubMetadata').output",
+								"value": "@activity('GithubMetadata').output.Response",
 								"type": "Expression"
 							}
 						}
@@ -320,7 +320,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileName": "netflix.csv",
+						"fileName": "netflix_titles.csv",
 						"fileSystem": "raw"
 					},
 					"columnDelimiter": ",",
